@@ -9,5 +9,14 @@
     </head>
     <body>
         <h1>Olá Mundo!!!</h1>
+
+
+        <!--Scriptlet-->
+
+        <%  
+            String nome = request.getParameter("nome");
+            out.print("Olá, " + nome); 
+        
+            %>
     </body>
 </html>
