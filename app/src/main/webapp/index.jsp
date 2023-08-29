@@ -14,8 +14,8 @@
         <!--Scriptlet-->
 
         <%  
-            String nome = request.getParameter("nome");
-            out.print("Olá, " + nome); 
+            String nome = request.getParameter("soma");
+            out.print("Olá, " + soma); 
         
             %>
     </body>
